@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  DropShadow.h
 //  CoreGraphicExamples
 //
 //  Created by Oscar Del Ben on 3/17/11.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController <UITableViewDelegate> {
+
+@interface DropShadow : UIViewController {
+    
 }
-
-@property (nonatomic, retain) NSArray *views;
-
 
 @end

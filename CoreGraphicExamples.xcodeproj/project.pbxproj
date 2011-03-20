@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5532DF741333D08400E30A3C /* Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5532DF731333D08400E30A3C /* Gradient.m */; };
+		559B0F0113362D2400180E4E /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 559B0F0013362D2400180E4E /* RoundedButton.m */; };
 		55BDEFBD133232D1005A89D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BDEFBC133232D1005A89D4 /* UIKit.framework */; };
 		55BDEFBF133232D1005A89D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BDEFBE133232D1005A89D4 /* Foundation.framework */; };
 		55BDEFC1133232D1005A89D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BDEFC0133232D1005A89D4 /* CoreGraphics.framework */; };
@@ -16,23 +18,32 @@
 		55BDEFD0133232D1005A89D4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BDEFCE133232D1005A89D4 /* MainWindow.xib */; };
 		55BDEFD3133232D1005A89D4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BDEFD2133232D1005A89D4 /* RootViewController.m */; };
 		55BDEFD6133232D1005A89D4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BDEFD4133232D1005A89D4 /* RootViewController.xib */; };
+		55BDEFEF133236E2005A89D4 /* DropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BDEFEE133236E2005A89D4 /* DropShadow.m */; };
+		55BDEFF1133244AB005A89D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BDEFF0133244AB005A89D4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5532DF721333D08400E30A3C /* Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gradient.h; sourceTree = "<group>"; };
+		5532DF731333D08400E30A3C /* Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gradient.m; sourceTree = "<group>"; };
+		559B0EFF13362D2400180E4E /* RoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedButton.h; sourceTree = "<group>"; };
+		559B0F0013362D2400180E4E /* RoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedButton.m; sourceTree = "<group>"; };
 		55BDEFB8133232D1005A89D4 /* CoreGraphicExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGraphicExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BDEFBC133232D1005A89D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55BDEFBE133232D1005A89D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55BDEFC0133232D1005A89D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		55BDEFC4133232D1005A89D4 /* CoreGraphicExamples-Info.plist */ = {isa = PBXFileReference; path = "CoreGraphicExamples-Info.plist"; sourceTree = "<group>"; };
+		55BDEFC4133232D1005A89D4 /* CoreGraphicExamples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreGraphicExamples-Info.plist"; sourceTree = "<group>"; };
 		55BDEFC6133232D1005A89D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55BDEFC8133232D1005A89D4 /* CoreGraphicExamples-Prefix.pch */ = {isa = PBXFileReference; path = "CoreGraphicExamples-Prefix.pch"; sourceTree = "<group>"; };
+		55BDEFC8133232D1005A89D4 /* CoreGraphicExamples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreGraphicExamples-Prefix.pch"; sourceTree = "<group>"; };
 		55BDEFC9133232D1005A89D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55BDEFCB133232D1005A89D4 /* CoreGraphicExamplesAppDelegate.h */ = {isa = PBXFileReference; path = CoreGraphicExamplesAppDelegate.h; sourceTree = "<group>"; };
+		55BDEFCB133232D1005A89D4 /* CoreGraphicExamplesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicExamplesAppDelegate.h; sourceTree = "<group>"; };
 		55BDEFCC133232D1005A89D4 /* CoreGraphicExamplesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicExamplesAppDelegate.m; sourceTree = "<group>"; };
 		55BDEFCF133232D1005A89D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		55BDEFD1133232D1005A89D4 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		55BDEFD1133232D1005A89D4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		55BDEFD2133232D1005A89D4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		55BDEFD5133232D1005A89D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		55BDEFED133236E2005A89D4 /* DropShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropShadow.h; sourceTree = "<group>"; };
+		55BDEFEE133236E2005A89D4 /* DropShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropShadow.m; sourceTree = "<group>"; };
+		55BDEFF0133244AB005A89D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BDEFF1133244AB005A89D4 /* QuartzCore.framework in Frameworks */,
 				55BDEFBD133232D1005A89D4 /* UIKit.framework in Frameworks */,
 				55BDEFBF133232D1005A89D4 /* Foundation.framework in Frameworks */,
 				55BDEFC1133232D1005A89D4 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +81,7 @@
 		55BDEFBB133232D1005A89D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55BDEFF0133244AB005A89D4 /* QuartzCore.framework */,
 				55BDEFBC133232D1005A89D4 /* UIKit.framework */,
 				55BDEFBE133232D1005A89D4 /* Foundation.framework */,
 				55BDEFC0133232D1005A89D4 /* CoreGraphics.framework */,
@@ -79,6 +92,7 @@
 		55BDEFC2133232D1005A89D4 /* CoreGraphicExamples */ = {
 			isa = PBXGroup;
 			children = (
+				55BDEFDC133233C9005A89D4 /* Examples */,
 				55BDEFCB133232D1005A89D4 /* CoreGraphicExamplesAppDelegate.h */,
 				55BDEFCC133232D1005A89D4 /* CoreGraphicExamplesAppDelegate.m */,
 				55BDEFCE133232D1005A89D4 /* MainWindow.xib */,
@@ -99,6 +113,19 @@
 				55BDEFC9133232D1005A89D4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55BDEFDC133233C9005A89D4 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				55BDEFED133236E2005A89D4 /* DropShadow.h */,
+				55BDEFEE133236E2005A89D4 /* DropShadow.m */,
+				5532DF721333D08400E30A3C /* Gradient.h */,
+				5532DF731333D08400E30A3C /* Gradient.m */,
+				559B0EFF13362D2400180E4E /* RoundedButton.h */,
+				559B0F0013362D2400180E4E /* RoundedButton.m */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +194,9 @@
 				55BDEFCA133232D1005A89D4 /* main.m in Sources */,
 				55BDEFCD133232D1005A89D4 /* CoreGraphicExamplesAppDelegate.m in Sources */,
 				55BDEFD3133232D1005A89D4 /* RootViewController.m in Sources */,
+				55BDEFEF133236E2005A89D4 /* DropShadow.m in Sources */,
+				5532DF741333D08400E30A3C /* Gradient.m in Sources */,
+				559B0F0113362D2400180E4E /* RoundedButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +267,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreGraphicExamples/CoreGraphicExamples-Prefix.pch";
@@ -251,6 +285,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreGraphicExamples/CoreGraphicExamples-Prefix.pch";
 				INFOPLIST_FILE = "CoreGraphicExamples/CoreGraphicExamples-Info.plist";
@@ -279,6 +317,7 @@
 				55BDEFDB133232D1005A89D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
